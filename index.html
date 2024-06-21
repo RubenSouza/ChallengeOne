@@ -69,26 +69,14 @@
           </div>
           <div id="right--box">
             <!-- right box -->
-
             <!-- no message div -->
-            <!-- <div id="waiting--text">
+            <div id="waiting--text">
               <img src="./assets/waiting.png" alt="An person waiting" />
-              <p id="waiting--text">Aguardando mensagem...</p>
-            </div> -->
-
+              <p>Aguardando mensagem...</p>
+            </div>
             <!-- encrypted message -->
-            <div id="encrypted--message">
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum
-                officiis porro, maiores eos blanditiis autem a quae, harum quia
-                necessitatibus odit quidem eveniet. Qui similique dolor natus
-                laborum? Corrupti, voluptatem! Lorem ipsum dolor, sit amet
-                consectetur adipisicing elit. Exercitationem, facere? Suscipit,
-                quisquam, deleniti placeat eligendi, impedit sed blanditiis
-                voluptas ipsum ab praesentium ipsam alias dolorem harum quis?
-                Odit, sit quo! Lorem ipsum dolor sit, amet consectetur
-                adipisicing elit. Earum officiis porro, maiores eos blanditiis
-              </p>
+            <div id="encrypted--message" style="display: none">
+              <p id="encrypted--text"></p>
             </div>
           </div>
         </div>
@@ -110,12 +98,21 @@
             </button>
           </div>
           <div id="help--buttons">
-            <img src="./assets/icons/copy.png" alt="copy the text" />
-            <img src="./assets/icons/download.png" alt="download the text" />
+            <img
+              src="./assets/icons/copy.png"
+              alt="copy the text"
+              id="copy--button"
+            />
+            <img
+              src="./assets/icons/download.png"
+              alt="download the text"
+              id="download--button"
+            />
           </div>
         </div>
       </section>
     </main>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="./js/index.js"></script>
   </body>
 </html>
