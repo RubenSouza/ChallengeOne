@@ -24,7 +24,11 @@
               href="https://my-portfolio-rubensouza.vercel.app"
               target="_blank"
             >
-              <img src="./assets/website.png" alt="Portfolio" class="icon" />
+              <img
+                src="./assets/icons/website.png"
+                alt="Portfolio"
+                class="icon"
+              />
             </a>
           </li>
           <li>
@@ -32,30 +36,82 @@
               href="https://www.linkedin.com/in/ruben-oliveira-dev/"
               target="_blank"
             >
-              <img src="./assets/linkedin.png" alt="Linkedin" class="icon" />
+              <img
+                src="./assets/icons/linkedin.png"
+                alt="Linkedin"
+                class="icon"
+              />
             </a>
           </li>
           <li>
             <a href="https://github.com/RubenSouza?" target="_blank">
-              <img src="./assets/github.png" alt="Github" class="icon" />
+              <img src="./assets/icons/github.png" alt="Github" class="icon" />
             </a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section id="container">
         <!-- container -->
-
-        <div>
+        <div id="top--container">
           <!-- title -->
+          <h1>Encriptador de textos</h1>
         </div>
-        <div>
-          <div>
+        <div id="box--container">
+          <div id="left--box">
             <!-- left box -->
+            <textarea
+              name="Text to convert"
+              id="text--to--convert"
+              placeholder="Digite seu texto aqui..."
+            ></textarea>
           </div>
-          <div>
+          <div id="right--box">
             <!-- right box -->
+
+            <!-- no message div -->
+            <!-- <div id="waiting--text">
+              <img src="./assets/waiting.png" alt="An person waiting" />
+              <p id="waiting--text">Aguardando mensagem...</p>
+            </div> -->
+
+            <!-- encrypted message -->
+            <div id="encrypted--message">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum
+                officiis porro, maiores eos blanditiis autem a quae, harum quia
+                necessitatibus odit quidem eveniet. Qui similique dolor natus
+                laborum? Corrupti, voluptatem! Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Exercitationem, facere? Suscipit,
+                quisquam, deleniti placeat eligendi, impedit sed blanditiis
+                voluptas ipsum ab praesentium ipsam alias dolorem harum quis?
+                Odit, sit quo! Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Earum officiis porro, maiores eos blanditiis
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="bottom--container">
+          <!-- info -->
+          <div id="bottom--info">
+            <img src="./assets/icons/info.png" alt="alert icon" />
+            <p>Apenas letras minúsculas e sem acento.</p>
+          </div>
+          <!-- buttons -->
+          <div id="buttons--container">
+            <button id="lock--button">
+              <img src="./assets/icons/lock.png" alt="Send" class="icon" />
+              <span>Criptografar</span>
+            </button>
+            <button id="unlock--button">
+              <img src="./assets/icons/unlock.png" alt="Send" class="icon" />
+              <span>Descriptografar</span>
+            </button>
+          </div>
+          <div id="help--buttons">
+            <img src="./assets/icons/copy.png" alt="copy the text" />
+            <img src="./assets/icons/download.png" alt="download the text" />
           </div>
         </div>
       </section>
